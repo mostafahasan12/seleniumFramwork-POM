@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite">
+	<parameter name="browser" value="chrome" />
+	<test name="Regression Test" preserve-order="false">
+		<classes>
+			<!--  <class name="test.UserRegistrationTest" /> -->
+			<!--<class name="test.AddProductReviewTest" /> -->
+			<!-- <class name="test.AddProductToCompareTest" /> -->
+			<!--<class name="test.AddProductToWishListTest" /> -->
+			<class name="test.ChangeCurrencyTest" /> 
+			<!--<class name="test.ContactUsTest" />-->
+			<!--<class name="test.EmailFriendTest" />-->
+	     	<!--<class name="test.GuestCheckoutProductFromCartTest" />-->
+			<!--<class name="test.MyAccountTest" />-->
+			<!--<class name="test.RegisteredUserCheckoutProductTest" />-->
+			<class name="test.SearchProductUsingAutoSuggestTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

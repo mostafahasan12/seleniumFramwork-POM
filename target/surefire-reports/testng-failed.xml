@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="test.GuestCheckoutProductFromCartTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="UserCanSearchForProductsWithAutoSuggest"/>
+          <include name="screenshotOnFailure"/>
+          <include name="UserCanCheckoutProduct"/>
+          <include name="UserCanAddProductToShoppingCart"/>
+        </methods>
+      </class> <!-- test.GuestCheckoutProductFromCartTest -->
+      <class name="test.EmailFriendTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="UserCanSearchWithAutoSuggest"/>
+          <include name="UserCanRegisterSuccssfully"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="RegisteredUserCanLogout"/>
+          <include name="RegisteredUserCanSendProductToFriend"/>
+        </methods>
+      </class> <!-- test.EmailFriendTest -->
+      <class name="test.MyAccountTest">
+        <methods>
+          <include name="RegisteredUserCanChangePassword"/>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="RegisteredUserCanLogin"/>
+          <include name="UserCanRegisterSuccssfully"/>
+          <include name="RegisteredUserCanLogout"/>
+          <include name="screenshotOnFailure"/>
+          <include name="UserLogout"/>
+        </methods>
+      </class> <!-- test.MyAccountTest -->
+      <class name="test.UserRegistrationTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="UserCanRegisterSuccssfully"/>
+          <include name="screenshotOnFailure"/>
+          <include name="RegisteredUserCanLogout"/>
+          <include name="RegisteredUserCanLogin"/>
+        </methods>
+      </class> <!-- test.UserRegistrationTest -->
+      <class name="test.RegisteredUserCheckoutProductTest">
+        <methods>
+          <include name="UserCanAddProductToShoppingCart"/>
+          <include name="startDriver"/>
+          <include name="UserCanRegisterSuccssfully"/>
+          <include name="UserCanSearchWithAutoSuggest"/>
+          <include name="UserCanCheckoutProduct"/>
+          <include name="stopDriver"/>
+          <include name="RegisteredUserCanLogout"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- test.RegisteredUserCheckoutProductTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
